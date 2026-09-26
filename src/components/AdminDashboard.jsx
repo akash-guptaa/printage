@@ -815,12 +815,6 @@ export default function AdminDashboard({ onBackToSite, onOpenLanding }) {
             </button>
           </form>
 
-          <div className="mt-6 pt-5 border-t border-slate-800 text-center">
-            <p className="text-[11px] text-slate-500">
-              Access: <code className="text-slate-400 bg-slate-950 px-1.5 py-0.5 rounded">admin@printage.com</code> | <code className="text-slate-400 bg-slate-950 px-1.5 py-0.5 rounded">Passwd@123</code>
-            </p>
-          </div>
-
         </div>
 
       </div>
