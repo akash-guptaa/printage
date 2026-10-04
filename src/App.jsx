@@ -20,6 +20,7 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import FloatingActions from './components/FloatingActions';
 import QuoteModal from './components/QuoteModal';
+import PreviewGeneratorModal from './components/PreviewGeneratorModal';
 import LandingPage from './components/LandingPage';
 import AdminDashboard from './components/AdminDashboard';
 import MountingBoardLoader from './components/MountingBoardLoader';
@@ -41,6 +42,7 @@ export default function App() {
   });
 
   const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false);
+  const [isPreviewModalOpen, setIsPreviewModalOpen] = useState(false);
   const [quoteServiceTarget, setQuoteServiceTarget] = useState('');
 
   const handleOpenQuoteModal = (serviceName = '') => {
@@ -54,6 +56,14 @@ export default function App() {
 
   const handleCloseQuoteModal = () => {
     setIsQuoteModalOpen(false);
+  };
+
+  const handleOpenPreviewModal = () => {
+    setIsPreviewModalOpen(true);
+  };
+
+  const handleClosePreviewModal = () => {
+    setIsPreviewModalOpen(false);
   };
 
   const handleOpenVideoModal = () => {
@@ -127,7 +137,7 @@ export default function App() {
 
         {/* Dedicated Section: Designing to Manufacturing Under One Roof */}
         <div id="manufacturing-roof">
-          <ManufacturingUnderOneRoof onOpenQuoteModal={handleOpenQuoteModal} />
+          <ManufacturingUnderOneRoof onOpenQuoteModal={handleOpenQuoteModal} onOpenPreviewModal={handleOpenPreviewModal} />
         </div>
 
         {/* Client Logos & Trust Bar */}
@@ -188,6 +198,12 @@ export default function App() {
         isOpen={isQuoteModalOpen} 
         onClose={handleCloseQuoteModal}
         initialService={quoteServiceTarget}
+      />
+
+      {/* 3D Preview Generator UI Modal */}
+      <PreviewGeneratorModal 
+        isOpen={isPreviewModalOpen}
+        onClose={handleClosePreviewModal}
       />
     </div>
   );

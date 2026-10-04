@@ -5,7 +5,8 @@ export const industriesData = [
     tag: "High Footfall",
     desc: "Captivate shoppers from across the street with high-lux 3D LED letters, illuminated entrance portals, and dynamic window display lightboxes.",
     signage: ["3D LED Channel Letters", "Fabric SEG Lightboxes", "Acrylic Push-Through Signs", "Glass Window Frosting"],
-    stat: "Up to 40% higher walk-ins"
+    stat: "Up to 40% higher walk-ins",
+    image: "/images/ai_board_retail_1790711386975.jpg"
   },
   {
     id: "qsr",
@@ -13,7 +14,8 @@ export const industriesData = [
     tag: "Day & Night Glow",
     desc: "Vibrant outdoor glow signboards, warm neon ambiance scripts, and digital high-brightness menu boards that attract evening crowds.",
     signage: ["Custom Neon Flex Signs", "Digital 4K Menu Screens", "Projecting Blade Signs", "Facade Glow Boxes"],
-    stat: "100% weather-sealed LEDs"
+    stat: "100% weather-sealed LEDs",
+    image: "/images/ai_board_restaurant_1790711351183.jpg"
   },
   {
     id: "real-estate",
@@ -29,7 +31,8 @@ export const industriesData = [
     tag: "Prestige & Precision",
     desc: "Exude authority and executive elegance with brushed titanium stainless steel lobby logos, frosted glass partitions, and directional floor directories.",
     signage: ["Titanium Gold SS Letters", "Lobby 3D Reception Logos", "Modular Floor Directories", "Acoustic Wall Signs"],
-    stat: "Zero-glare halo lighting"
+    stat: "Zero-glare halo lighting",
+    image: "/images/ai_board_corporate_1790711367826.jpg"
   },
   {
     id: "healthcare",

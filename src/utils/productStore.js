@@ -1,6 +1,6 @@
 import { productsData as defaultProducts, productCategories as defaultCategories } from '../data/productsData';
 
-const STORAGE_KEY = 'printage_products_catalog_v2';
+const STORAGE_KEY = 'printage_products_catalog_v4';
 
 export const productStore = {
   getProducts: () => {

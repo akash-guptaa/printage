@@ -1,7 +1,7 @@
 import React from 'react';
 import { Sparkles, ArrowRight, MessageCircle, MapPin, Award, CheckCircle2, ShieldCheck, Factory } from 'lucide-react';
 
-export default function ManufacturingUnderOneRoof({ onOpenQuoteModal }) {
+export default function ManufacturingUnderOneRoof({ onOpenQuoteModal, onOpenPreviewModal }) {
   const whatsappUrl = "https://wa.me/919819221376?text=Hello%20PRINTAGE!%20I%20would%20like%20to%20build%20my%20Dream%20Brand%20with%20custom%20signage%20and%20neon%20works.";
   const mapsUrl = "https://maps.google.com/maps?vet=10CAAQoqAOahcKEwj4yJSQ9oyXAxUAAAAAHQAAAAAQCA..i&hl=en-IN&sca_esv=69f18be9691a8a30&udm&fvr=1&pvq=Cg0vZy8xMWg3NmxxdG13Ig4KCFByaW50YWdlEAIYAw&lqi=CghQcmludGFnZUj7zK3pnK-AgAhaDhAAGAAiCHByaW50YWdlkgEKcHJpbnRfc2hvcA&cs=0&um=1&ie=UTF-8&fb=1&gl=in&sa=X&ftid=0x3be7b14ccc83eda5:0x9ba9967d6d8f5047";
 
@@ -79,7 +79,7 @@ export default function ManufacturingUnderOneRoof({ onOpenQuoteModal }) {
             
             {/* 1. Get Instant Estimate & 3D Preview */}
             <button
-              onClick={() => onOpenQuoteModal && onOpenQuoteModal()}
+              onClick={() => onOpenPreviewModal && onOpenPreviewModal()}
               className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-[#00d2ff] via-[#a855f7] to-[#d946ef] text-white font-extrabold text-sm sm:text-base shadow-xl shadow-cyan-500/25 hover:shadow-[0_0_30px_rgba(0,210,255,0.6)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 flex items-center justify-center space-x-2.5 cursor-pointer"
             >
               <Sparkles className="w-5 h-5 text-amber-200" />

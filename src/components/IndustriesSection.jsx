@@ -86,6 +86,12 @@ export default function IndustriesSection({ onOpenQuoteModal }) {
                     )}
                   </div>
 
+                  {ind.image && (
+                    <div className="mb-4 rounded-xl overflow-hidden aspect-video">
+                      <img src={ind.image} alt={ind.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                    </div>
+                  )}
+
                   <h3 className="text-base font-bold text-slate-900 mb-2 group-hover:text-brand-600 transition-colors">
                     {ind.title}
                   </h3>

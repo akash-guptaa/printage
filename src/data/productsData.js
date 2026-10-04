@@ -5,7 +5,7 @@ export const productsData = [
     category: "Illuminated Signage",
     priceRange: "₹650 - ₹1,200 / sq.ft",
     badge: "High Visibility",
-    image: "/images/product-led-acrylic-letters.jpg",
+    image: "/images/ai_p_led_letters_1791056166804.jpg",
     description: "Front-lit, back-lit (halo), and edge-lit 3D channel letters engineered with Samsung IP68 waterproof LEDs for maximum nighttime brilliance.",
     specs: ["Front-lit & Halo Reverse", "IP68 Waterproof Modules", "Custom Fonts & Strokes", "Energy Efficient"]
   },
@@ -15,7 +15,7 @@ export const productsData = [
     category: "Indoor & Retail",
     priceRange: "₹450 - ₹950 / sq.ft",
     badge: "Laser Precision",
-    image: "/images/product-acrylic-3d-letters.jpg",
+    image: "/images/ai_p_acrylic_letters_1791056178032.jpg",
     description: "Imported cast acrylic letters precision-cut with high-power lasers, offering crystal diamond polished edges and vibrant non-fading colors.",
     specs: ["Cast Acrylic 3mm to 30mm", "Diamond Polished Finish", "Push-Through Style", "Indoor Reception & Retail"]
   },
@@ -25,7 +25,7 @@ export const productsData = [
     category: "Storefronts",
     priceRange: "₹380 - ₹620 / sq.ft",
     badge: "Most Popular",
-    image: "/images/product-glow-sign-board.jpg",
+    image: "/images/ai_p_glow_box_1791056273534.jpg",
     description: "Classic high-impact lightboxes built with heavy-gauge extruded aluminium frames and translucent UV printed flex or polycarbonate facings.",
     specs: ["Heavy Aluminium Casing", "UV Backlit Flex / Polycarb", "Uniform Light Diffusion", "Single & Double Sided"]
   },
@@ -35,7 +35,7 @@ export const productsData = [
     category: "Exterior Facades",
     priceRange: "₹480 - ₹880 / sq.ft",
     badge: "Weatherproof",
-    image: "/images/product-acp-signage.jpg",
+    image: "/images/ai_p_acp_1791056286619.jpg",
     description: "Aluminium Composite Panel cladding with CNC routing, backed by anti-rust GI frameworks to withstand coastal monsoons and high winds.",
     specs: ["Eurobond/Aludecor 4mm ACP", "CNC Grooved Cladding", "GI Heavy Sub-Frame", "100% Monsoon Resistant"]
   },
@@ -45,7 +45,7 @@ export const productsData = [
     category: "Digital Displays",
     priceRange: "₹2,800 - ₹5,500 / sq.ft",
     badge: "Ultra HD Dynamic",
-    image: "/images/product-led-video-wall.jpg",
+    image: "/images/ai_prod_video_wall_1790712122098.jpg",
     description: "Seamless indoor and outdoor commercial LED video screens (P2.5, P3, P4) with 6,500 nits daylight brightness and cloud content management.",
     specs: ["P2.5 / P3 / P4 Pitch", "6,500 Nits Daylight Screen", "NovaStar Cloud Controller", "Die-Cast Weatherproof Cabinet"]
   },
@@ -55,7 +55,7 @@ export const productsData = [
     category: "Neon & Illuminated",
     priceRange: "₹950 - ₹2,800 / sq.ft",
     badge: "Trending & High Impact",
-    image: "/images/product-neon-scrolling.jpg",
+    image: "/images/ai_p_neon_signs_1791056203163.jpg",
     description: "Handcrafted 12V silicone LED neon sign boards for cafe interiors, restaurant backdrops, corporate lounge photowalls, and retail storefronts.",
     specs: ["12V Shockproof Silicone Flex", "Clear Cast Acrylic Backer", "Custom Typography & Logos", "Dimmable Multi-Color Options"]
   },
@@ -65,7 +65,7 @@ export const productsData = [
     category: "Architectural & Luxury",
     priceRange: "₹950 - ₹1,750 / sq.ft",
     badge: "Grade 304/316",
-    image: "/images/product-steel-letters.jpg",
+    image: "/images/ai_p_steel_letters_1791056190863.jpg",
     description: "Marine-grade stainless steel letters with PVD titanium gold, rose gold, chrome, and hairline brushed finishes. Zero rust guarantee.",
     specs: ["SS 304 / SS 316 Marine Grade", "PVD Titanium Coating", "Hairline / Mirror Polish", "Warm Halo LED Backlight"]
   },
@@ -75,7 +75,7 @@ export const productsData = [
     category: "Retail & Fleet",
     priceRange: "₹85 - ₹250 / sq.ft",
     badge: "High Definition",
-    image: "/images/product-vinyl-branding.jpg",
+    image: "/images/ai_p_vinyl_1791056298706.jpg",
     description: "Cast & polymeric vinyl wraps for storefront glass frosting, wall murals, fleet branding, and high-impact retail promotional pillars.",
     specs: ["Avery Dennison / 3M Vinyl", "High-Resolution Latex Print", "Bubble-Free Adhesive", "Scratch-Resistant Lamination"]
   },
@@ -85,7 +85,7 @@ export const productsData = [
     category: "Showrooms",
     priceRange: "₹750 - ₹1,350 / sq.ft",
     badge: "Tool-Free Swap",
-    image: "/images/product-acp-black-yellow.jpg",
+    image: "/images/ai_prod_fabric_1790712173521.jpg",
     description: "Frameless silicone edge graphic (SEG) fabric lightboxes. Allows showroom staff to change massive promotional graphics in 2 minutes.",
     specs: ["Ultra-Slim Aluminium Profile", "Silicone Edge Fabric (SEG)", "Vibrant Dye-Sublimation", "Edge-to-Edge Glare-Free"]
   },
@@ -118,6 +118,16 @@ export const productsData = [
     image: "/images/product-acp-led-board.jpg",
     description: "High-speed spinning LED blades creating floating 3D holographic images in mid-air using POV. Captivates 10x more foot traffic at showrooms.",
     specs: ["Floating 3D Visual Effect", "Wi-Fi & Cloud Content App", "Daisy-Chained Video Walls", "Protective Acrylic Cover"]
+  },
+  {
+    id: "prod-combo-board",
+    name: "Acrylic + Metal Combo",
+    category: "Architectural & Luxury",
+    priceRange: "₹1,200 - ₹2,500 / sq.ft",
+    badge: "Premium Design",
+    image: "/images/ai_p_combo_board_1791056237475.jpg",
+    description: "High quality indoor signage showing a beautiful combination of glowing acrylic letters and brushed metal channel letters mounted on wood or stone textures.",
+    specs: ["Glowing Acrylic Letters", "Brushed Metal Accents", "Premium Wall Mounting", "Professional Ambient Lighting"]
   }
 ];
 

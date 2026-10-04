@@ -1,6 +1,6 @@
 import { industriesData as defaultIndustries } from '../data/industriesData';
 
-const STORAGE_KEY = 'printage_industry_solutions_v1';
+const STORAGE_KEY = 'printage_industry_solutions_v2';
 
 export const industryStore = {
   // Get all industries
