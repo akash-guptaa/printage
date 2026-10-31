@@ -253,8 +253,21 @@ export default function Footer({ onOpenQuoteModal, onOpenAdmin }) {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <div>
-            © {currentYear} PRINTAGE. All rights reserved. End-to-end signage manufacturing & installation.
+          <div className="flex items-center space-x-4">
+            {onOpenAdmin && (
+              <>
+                <button 
+                  onClick={onOpenAdmin} 
+                  className="hover:text-amber-400 transition-colors flex items-center space-x-1 text-slate-400 cursor-pointer"
+                  title="Admin Lead Management Portal"
+                >
+                  <Lock className="w-3 h-3 text-amber-500" />
+                  <span>Admin Portal</span>
+                </button>
+                <span className="hidden sm:inline">•</span>
+              </>
+            )}
+            <span>© {currentYear} PRINTAGE. All rights reserved. End-to-end signage manufacturing & installation.</span>
           </div>
           <div className="flex items-center space-x-4">
             <span className="text-slate-400 flex items-center space-x-1">
@@ -265,19 +278,6 @@ export default function Footer({ onOpenQuoteModal, onOpenAdmin }) {
             <a href="#about" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
             <span>•</span>
             <a href="#about" className="hover:text-slate-300 transition-colors">Terms of Service</a>
-            {onOpenAdmin && (
-              <>
-                <span>•</span>
-                <button 
-                  onClick={onOpenAdmin} 
-                  className="hover:text-amber-400 transition-colors flex items-center space-x-1 text-slate-400 cursor-pointer"
-                  title="Admin Lead Management Portal"
-                >
-                  <Lock className="w-3 h-3 text-amber-500" />
-                  <span>Admin Portal</span>
-                </button>
-              </>
-            )}
           </div>
         </div>
 
