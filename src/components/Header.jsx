@@ -23,23 +23,14 @@ export default function Header({ onOpenQuoteModal }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           
-          {/* Logo: Clean PRINTAGE without cluttered badge */}
-          <a href="#" className="flex items-center space-x-3 group shrink-0">
-            <div className="h-11 w-11 sm:h-12 sm:w-12 rounded-xl bg-white p-1 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform duration-300 shrink-0 border border-neutral-800">
+          {/* Brand Logo: Image Only */}
+          <a href="#" className="flex items-center group shrink-0" title="PRINTAGE Printing & Signage">
+            <div className="h-11 sm:h-12 bg-white px-2.5 py-1 rounded-xl shadow-lg border border-neutral-800 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
               <img 
                 src="/images/printage-logo.png" 
-                alt="PRINTAGE Logo" 
-                className="w-full h-full object-contain"
-                onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                alt="PRINTAGE Printing & Signage" 
+                className="h-full w-auto object-contain"
               />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-display font-black text-2xl sm:text-3xl tracking-tight text-[#00d2ff] drop-shadow-[0_0_20px_rgba(0,210,255,0.45)]">
-                PRINTAGE
-              </span>
-              <span className="text-xs text-slate-400 font-medium tracking-tight">
-                Bhayandar West • Est. 2013
-              </span>
             </div>
           </a>
 

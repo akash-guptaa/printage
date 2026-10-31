@@ -40,16 +40,15 @@ export default class ErrorBoundary extends Component {
             {/* Header with Logo & Alert badge */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-5 mb-6">
               <div className="flex items-center space-x-3">
-                <img 
-                  src="/images/printage-logo.png" 
-                  alt="PRINTAGE Signage Hub" 
-                  className="h-10 w-auto object-contain bg-white/10 rounded-lg p-1"
-                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                />
-                <div>
-                  <span className="text-lg font-black tracking-wider text-white uppercase">PRINTAGE</span>
-                  <p className="text-xs text-slate-400">Signage & Neon Works • Bhayandar West</p>
+                <div className="h-10 bg-white px-2.5 py-1 rounded-xl shadow-md flex items-center justify-center">
+                  <img 
+                    src="/images/printage-logo.png" 
+                    alt="PRINTAGE Printing & Signage" 
+                    className="h-full w-auto object-contain"
+                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                  />
                 </div>
+                <p className="text-xs text-slate-400">Signage & Neon Works • Bhayandar West</p>
               </div>
               <div className="w-10 h-10 rounded-full bg-red-500/10 border border-red-500/30 flex items-center justify-center text-red-400">
                 <AlertTriangle className="w-5 h-5" />

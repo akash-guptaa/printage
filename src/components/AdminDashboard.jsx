@@ -740,7 +740,7 @@ export default function AdminDashboard({ onBackToSite, onOpenLanding }) {
           <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#00d2ff] via-[#a855f7] to-[#d946ef]" />
 
           <div className="text-center mb-8">
-            <div className="inline-flex p-3 rounded-2xl bg-slate-800 border border-slate-700 mb-3 shadow-inner">
+            <div className="inline-flex p-2.5 rounded-2xl bg-white border border-slate-700 mb-3 shadow-lg">
               <img 
                 src="/images/printage-logo.png" 
                 alt="PRINTAGE Logo" 
@@ -748,8 +748,8 @@ export default function AdminDashboard({ onBackToSite, onOpenLanding }) {
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
               />
             </div>
-            <h1 className="text-2xl font-black tracking-tight text-white">
-              PRINT<span className="text-[#00d2ff]">AGE</span> Admin Portal
+            <h1 className="text-xl font-black tracking-tight text-white mt-1">
+              Admin Management Portal
             </h1>
             <p className="text-xs text-slate-400 mt-1">
               Sign in to manage reviews sequence, product catalog & customer inquiries
@@ -835,24 +835,19 @@ export default function AdminDashboard({ onBackToSite, onOpenLanding }) {
           <div className="flex flex-wrap items-center gap-4 lg:gap-6">
             
             <div className="flex items-center space-x-3 shrink-0">
-              <div className="h-9 w-9 rounded-lg bg-white p-1 flex items-center justify-center shadow">
+              <div className="h-9 bg-white px-2.5 py-1 rounded-lg flex items-center justify-center shadow">
                 <img 
                   src="/images/printage-logo.png" 
                   alt="PRINTAGE Logo" 
-                  className="w-full h-full object-contain"
+                  className="h-full w-auto object-contain"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
               </div>
               <div>
-                <div className="flex items-center space-x-2">
-                  <span className="font-display font-black text-lg text-white">
-                    PRINT<span className="text-[#00d2ff]">AGE</span>
-                  </span>
-                  <span className="bg-slate-800 text-[#00d2ff] border border-cyan-500/30 text-[10px] font-bold px-2 py-0.5 rounded-full">
-                    Management Portal
-                  </span>
-                </div>
-                <p className="text-[11px] text-slate-400">Shop No. 8, Bhayandar West • 098192 21376</p>
+                <span className="bg-slate-800 text-[#00d2ff] border border-cyan-500/30 text-[10px] font-bold px-2 py-0.5 rounded-full">
+                  Management Portal
+                </span>
+                <p className="text-[11px] text-slate-400 mt-0.5">Shop No. 8, Bhayandar West • 098192 21376</p>
               </div>
             </div>
 

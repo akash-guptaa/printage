@@ -67,22 +67,17 @@ export default function Footer({ onOpenQuoteModal, onOpenAdmin }) {
           
           {/* Brand Info */}
           <div className="lg:col-span-4 space-y-5">
-            <div className="flex items-center space-x-3">
-              <div className="h-11 w-11 rounded-xl bg-white p-1 flex items-center justify-center shadow-md border border-neutral-700 shrink-0">
+            <div>
+              <div className="inline-flex items-center h-12 bg-white px-3 py-1.5 rounded-xl shadow-md border border-neutral-700">
                 <img 
                   src="/images/printage-logo.png" 
                   alt="PRINTAGE Printing & Signage" 
-                  className="w-full h-full object-contain"
+                  className="h-full w-auto object-contain"
                 />
               </div>
-              <div>
-                <span className="font-display font-black text-2xl tracking-tight text-white block">
-                  PRINT<span className="text-brand-500">AGE</span>
-                </span>
-                <span className="text-xs text-brand-400 font-semibold">
-                  “We help businesses choose the right signage to get noticed.”
-                </span>
-              </div>
+              <p className="text-xs text-brand-400 font-semibold mt-3">
+                “We help businesses choose the right signage to get noticed.”
+              </p>
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed">

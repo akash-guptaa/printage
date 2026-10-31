@@ -198,21 +198,15 @@ export default function LandingPage({ onSwitchToFullSite, onOpenQuoteModal }) {
       <header className="sticky top-0 z-40 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 shadow-xl">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <img 
-              src="/images/printage-logo.png" 
-              alt="PRINTAGE Signage" 
-              className="h-10 sm:h-12 w-auto object-contain bg-white/10 rounded-lg p-1"
-              onError={(e) => { e.currentTarget.style.display = 'none'; }}
-            />
-            <div>
-              <div className="flex items-center space-x-1.5">
-                <span className="text-xl sm:text-2xl font-black tracking-wider text-white">PRINTAGE</span>
-                <span className="text-[10px] bg-brand-600 text-white font-black px-1.5 py-0.5 rounded uppercase">Factory</span>
-              </div>
-              <p className="text-[11px] text-slate-400 font-medium hidden sm:block">
-                Signage, Custom Neon & Printing Hub • Est. 2013
-              </p>
+            <div className="h-10 sm:h-12 bg-white px-2.5 py-1 rounded-xl shadow-md flex items-center justify-center">
+              <img 
+                src="/images/printage-logo.png" 
+                alt="PRINTAGE Printing & Signage" 
+                className="h-full w-auto object-contain"
+                onError={(e) => { e.currentTarget.style.display = 'none'; }}
+              />
             </div>
+            <span className="text-[10px] bg-brand-600 text-white font-black px-2 py-0.5 rounded uppercase hidden sm:inline-block">Factory</span>
           </div>
 
           <div className="flex items-center space-x-2 sm:space-x-4">
