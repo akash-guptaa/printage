@@ -29,3 +29,13 @@ yarn-error.log*
 
 # Misc
 *.local
+
+# Server & Data JSON files (prevent replacing server JSON files)
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!tsconfig.*.json
+!**/package.json
+!**/package-lock.json
+!**/tsconfig*.json
